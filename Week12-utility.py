@@ -49,3 +49,12 @@ def Union(list1, list2):
         if n not in new_list2:
             new_list1.append(2)
     combined_list = new_list1 + new_list2
+
+# Intersection
+def Intersection(list1, list2):
+    intersect_list = []
+    for n in list1:
+        if n in list2:
+            intersect_list.append(n)
+    return intersect_list
+
