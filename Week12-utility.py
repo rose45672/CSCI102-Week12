@@ -61,9 +61,9 @@ def Intersection(list1, list2):
 
 # NotIn
 def NotIn(list1, list2):
-    notIn _list = []
-    for n in list2:
-        if n not in list1:
+    notIn_list = []
+    for n in list1:
+        if n not in list2:
             notIn_list.append(n)
     return notIn_list
 
