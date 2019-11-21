@@ -1,3 +1,8 @@
+# https://github.com/rose45672/CSCI102-Week12
+# Ashley Renzelman
+# CSCI 102 - Section E
+# Week 12 - Part B
+
 # PrintOutput
 def PrintOutput(input_string):
     print("OUTPUT", input_string)
