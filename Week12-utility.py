@@ -30,8 +30,8 @@ def ScoreFinder(player_list, score_list, player):
         lower_player_list.append(item.lower())
     lower_player = player.lower()
     player_name = lower_player.capitalize()
-    index = lower_player_list.index(lower_player)
-    if index > -1:
+    if lower_player in lower_player_list:
+        index = lower_player_list.index(lower_player)
         player_score = score_list[index]
         output = "%s got a score of %d" % (player_name, player_score)
     else:
