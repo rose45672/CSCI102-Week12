@@ -47,8 +47,9 @@ def Union(list1, list2):
             new_list1.append(i)
     for n in list2:
         if n not in new_list2:
-            new_list1.append(2)
+            new_list2.append(n)
     combined_list = new_list1 + new_list2
+    return combined_list
 
 # Intersection
 def Intersection(list1, list2):
